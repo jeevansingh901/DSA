@@ -13,7 +13,7 @@ public:
                     
                 
                 maxi=max(i-k,maxi);
-                cout<<"M "<<i-k<<" I "<<i<<" K "<<k<<endl;
+               
             }
             else{
                 mpp.erase(s[k++]);
