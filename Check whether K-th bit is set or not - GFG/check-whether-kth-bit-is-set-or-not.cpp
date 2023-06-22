@@ -19,7 +19,13 @@ class Solution
         // It can be a one liner logic!! Think of it!!
         
         
-          return (n>>k)&1;
+          //return (n>>k)&1;
+          
+          
+          int setbit =1<<k;
+          
+          return setbit & n;
+          
     }
 };
 
